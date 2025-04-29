@@ -1,37 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Maquetado</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Maquetado</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body, html {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-color: white; 
+    }
+
+    .search-bar {
+      margin-top: 30px;
+      display: flex;
+      align-items: center;
+    }
+
+    input[type="text"] {
+      padding: 10px 15px;
+      width: 500px;
+      border: 20px solid #FF9978;
+      border-radius: 0; 
+      font-size: 16px;
+      outline: none;
+      
+    }
+
+    .Grey-box {
+      width: 78px;
+      height: 78px;
+      background-color: #656A73;
+    }
+
+    .Franja-Gris {
+      display: flex;
+      flex-direction: column;
+      width: 200px;
+      height: 20px;
+      background-color: #CCCBCA;
+      margin-top: 20px;
+      margin-left: -800px; 
+    }
+
+    header {
+      background-color: #C4EDF1;
+      padding: 130px 1000px;
+      width: 80%;
+      max-width: 800px;
+      margin-top: 20px; 
+    }
+  </style>
 </head>
 <body>
 
-    <style>
-        header {
-          background-color: #ffa07a;
-          padding: 90px 20px;
-          display: flex;
-          justify-content: space-between;
-          align-items: center;
-        }
-      
-        nav a {
-          margin-left: 90px;
-          text-decoration: none;
-          color: white;
-          font-weight: bold;
-        }
-        
+  <div class="search-bar">
+    <input type="text" placeholder="Buscar...">
+    <div class="Grey-box"></div>
+  </div>
+  
+  
+  <div class="Franja-Gris"></div>
 
-      </style>
-
-    <header>
-        
-      </header>
-    
-      <img src="https://a3.espncdn.com/combiner/i?img=%2Fphoto%2F2025%2F0410%2Fr1476421_1280x720_16%2D9.jpg&w=570&format=jpg" alt="Random image" />
+  <header>
+  </header>
 
 </body>
 </html>
