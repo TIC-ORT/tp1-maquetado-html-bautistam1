@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Maquetado</title>
   <style>
     * {
@@ -17,7 +17,7 @@
       display: flex;
       flex-direction: column;
       align-items: center;
-      background-color: white; 
+      background-color: white;
     }
 
     .search-bar {
@@ -30,10 +30,8 @@
       padding: 10px 15px;
       width: 500px;
       border: 20px solid #FF9978;
-      border-radius: 0; 
       font-size: 16px;
       outline: none;
-      
     }
 
     .Grey-box {
@@ -41,20 +39,20 @@
       height: 78px;
       background-color: #656A73;
     }
+
     .franjas {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 50px;
-}
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 50px;
+    }
 
-.Franja-Gris, .Franja-Gris2, .Franja-Gris3, .Franja-Gris4 {
-  width: 200px;
-  height: 20px;
-  background-color: #CCCBCA;
-  margin: 0 20px; 
-}
-
+    .Franja-Gris, .Franja-Gris2, .Franja-Gris3, .Franja-Gris4 {
+      width: 200px;
+      height: 20px;
+      background-color: #CCCBCA;
+      margin: 0 20px;
+    }
 
     header {
       background-color: #C4EDF1;
@@ -62,69 +60,148 @@
       width: 80%;
       height: 350px;
       max-width: 800px;
-      margin-top: 20px; 
-      
+      margin-top: 20px;
+      position: relative;
     }
 
     .Cian-box {
       width: 250px;
       height: 250px;
-      margin-top: -80px; 
-      margin-left: -600px; 
+      margin-top: -80px;
+      margin-left: -600px;
       background-color: #91D3D9;
     }
 
     .Cian-box2 {
       width: 20px;
       height: 20px;
-      margin-top: -210px; 
-      margin-left: -575px; 
+      margin-top: -210px;
+      margin-left: -575px;
       background-color: #C4EDF1;
     }
 
     .Cian-box3 {
       width: 20px;
       height: 20px;
-      margin-top: 20px; 
-      margin-left: -575px; 
+      margin-top: 20px;
+      margin-left: -575px;
       background-color: #C4EDF1;
     }
 
     .White-box {
       width: 150px;
       height: 20px;
-      margin-top: -20px; 
-      margin-left: -530px; 
+      margin-top: -20px;
+      margin-left: -530px;
       background-color: #FFFFFF;
     }
 
     .White-box2 {
       width: 150px;
       height: 20px;
-      margin-top: -60px; 
-      margin-left: -530px; 
+      margin-top: -60px;
+      margin-left: -530px;
       background-color: #FFFFFF;
     }
-   
+
+    .Grey-Line {
+      width: 500px;
+      height: 35px;
+      margin-top: -60px;
+      margin-left: -30px;
+      background-color: #656A73;
+    }
+
+    .White-Line {
+      width: 500px;
+      height: 10px;
+      margin-top: 90px;
+      margin-left: -30px;
+      background-color: #FFFFFF;
+    }
+
+    .White-Line2 {
+      width: 500px;
+      height: 10px;
+      margin-top: -60px;
+      margin-left: -30px;
+      background-color: #FFFFFF;
+    }
+
+    .White-Line3 {
+      width: 250px;
+      height: 10px;
+      margin-top: 90px;
+      margin-left: 85px;
+      background-color: #FFFFFF;
+    }
+
+    .contenedor-cajas {
+      display: flex;
+      justify-content: center;
+      gap: 230px;
+      margin-top: 40px;
+      margin-left: 10px;
+    }
+
+    .Red-box, .Cian-box2-2, .Yellow-box {
+      width: 250px;
+      height: 250px;
+    }
+
+    .Red-box {
+      background-color: #FF9978;
+    }
+
+    .Cian-box2-2 {
+      background-color: #ABE0E5;
+    }
+
+    .Yellow-box {
+      background-color: #FFC86D;
+    }
+
+    .Grey-Line2 {
+      width: 250px;
+      height: 20px;
+      margin-top: 15px;
+      margin-left: -950px;
+      background-color: #656A73;
+    }
+
+    .WGrey-Line {
+      width: 250px;
+      height: 20px;
+      margin-top: 15px;
+      margin-left: -950px;
+      background-color: #CCCBCA;
+    }
+
+    .WGrey-Line2 {
+      width: 150px;
+      height: 20px;
+      margin-top: 15px;
+      margin-left: -1050px;
+      background-color: #CCCBCA;
+    }
 
   </style>
 </head>
 <body>
 
   <div class="search-bar">
-    <input type="text" placeholder="Buscar...">
+    <input type="text" placeholder="Buscar..." />
     <div class="Grey-box"></div>
   </div>
-  
-  
+
   <div class="franjas">
     <div class="Franja-Gris"></div>
     <div class="Franja-Gris2"></div>
     <div class="Franja-Gris3"></div>
     <div class="Franja-Gris4"></div>
   </div>
-  
-  
+
+
 
   <header>
     <div class="Cian-box"></div>
@@ -133,7 +210,22 @@
 
     <div class="White-box"></div>
     <div class="White-box2"></div>
+
+    <div class="Grey-Line"></div>
+
+    <div class="White-Line"></div>
+    <div class="White-Line2"></div>
+    <div class="White-Line3"></div>
   </header>
 
+  <div class="contenedor-cajas">
+    <div class="Red-box"></div>
+    <div class="Cian-box2-2"></div>
+    <div class="Yellow-box"></div>
+  </div>
+
+  <div class="Grey-Line2"></div>
+  <div class="WGrey-Line"></div>
+  <div class="WGrey-Line2"></div>
 </body>
 </html>
