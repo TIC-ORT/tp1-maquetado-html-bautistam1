@@ -144,6 +144,12 @@
       margin-left: 10px;
     }
 
+    .grupo {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
     .Red-box, .Cian-box2-2, .Yellow-box {
       width: 250px;
       height: 250px;
@@ -161,29 +167,28 @@
       background-color: #FFC86D;
     }
 
-    .Grey-Line2 {
+    .Grey-Line2, .Grey-Line3, .Grey-Line4 {
       width: 250px;
-      height: 20px;
-      margin-top: 15px;
-      margin-left: -950px;
+      height: 18px;
       background-color: #656A73;
+      margin-top: 15px;
     }
 
-    .WGrey-Line {
+    .WGrey-Line, .WGrey-Line3, .WGrey-Line4 {
       width: 250px;
-      height: 20px;
-      margin-top: 15px;
-      margin-left: -950px;
+      height: 15px;
       background-color: #CCCBCA;
+      margin-top: 15px;
     }
 
-    .WGrey-Line2 {
+    .WGrey-Line5 {
       width: 150px;
-      height: 20px;
-      margin-top: 15px;
-      margin-left: -1050px;
+      height: 15px;
       background-color: #CCCBCA;
+      margin-top: 10px;
+      margin-left: -1050px;
     }
+    
 
   </style>
 </head>
@@ -202,7 +207,6 @@
   </div>
 
 
-
   <header>
     <div class="Cian-box"></div>
     <div class="Cian-box2"></div>
@@ -219,13 +223,24 @@
   </header>
 
   <div class="contenedor-cajas">
-    <div class="Red-box"></div>
-    <div class="Cian-box2-2"></div>
-    <div class="Yellow-box"></div>
-  </div>
+    <div class="grupo">
+      <div class="Red-box"></div>
+      <div class="Grey-Line2"></div>
+      <div class="WGrey-Line"></div>
+    </div>
 
-  <div class="Grey-Line2"></div>
-  <div class="WGrey-Line"></div>
-  <div class="WGrey-Line2"></div>
+    <div class="grupo">
+      <div class="Cian-box2-2"></div>
+      <div class="Grey-Line3"></div>
+      <div class="WGrey-Line3"></div>
+    </div>
+
+    <div class="grupo">
+      <div class="Yellow-box"></div>
+      <div class="Grey-Line4"></div>
+      <div class="WGrey-Line4"></div>
+    </div>
+  </div>
+  <div class="WGrey-Line5"></div>
 </body>
 </html>
